@@ -1,0 +1,9 @@
+Indexação Eficiente no Banco de Dados
+Justificativa:
+- Consultas por UASG ou número de pregão se tornam mais rápidas com índices bem definidos.
+- Sem indexação, o banco pode fazer table scan, o que degrada performance com muitos registros.
+
+Uso de Lazy Loading no Front-end
+Justificativa:
+- Carregar os dados gradualmente conforme o usuário interage (scroll infinito ou paginação dinâmica).
+- Evita renderizar tudo de uma vez, reduzindo o consumo de memória e acelerando o tempo de resposta visual.
